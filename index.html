@@ -6,21 +6,22 @@
     <meta name="description" content="Venha visitar a nossa cantina Família rossi, um ambiente perfeito para vir com a família. Esperamos você">
     <title>Família Rossi</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c405984d70.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
     <header class="cabecalho">
         
         <nav class="cabecalho-menu">
-            <a class="cabecalho-menu-item">A cantina</a>
-            <a class="cabecalho-menu-item">Para comer</a>
+            <a class="cabecalho-menu-item" href="#A cantina">A cantina</a>
+            <a class="cabecalho-menu-item" href="#Para comer">Para comer</a>
         
 
             <img class="cabecalho-imagem" src="Elementos/logo Branca.png" alt="Logo Família rossi">
 
         
-            <a class="cabecalho-menu-item">Para beber</a>
-            <a class="cabecalho-menu-item">Reservas</a>
+            <a class="cabecalho-menu-item" href="#Para beber">Para beber</a>
+            <a class="cabecalho-menu-item" href="#Reservas">Reservas</a>
         </nav>
 
     </header>
@@ -31,7 +32,7 @@
             <img clas="primeira-imagem1" src="Elementos/Primeira imagem.png" altt="Primeira foto">
         </section>
         
-        <section class="conteudo-acantina">
+        <section id="A cantina" class="conteudo-acantina">
             <div class="conteudo-acantina-escrito">
                 <h1 class="conteudo-acantina-escrito-titulo">A cantina</h1>
 
@@ -56,7 +57,7 @@
         </section>
 
 
-        <section class="conteudo-paracomer">
+        <section id="Para comer" class="conteudo-paracomer">
             <div class="conteudo-paracomer-escrito">
                 <h1 class="conteudo-paracomer-escrito-titulo">Para comer</h1>
                 <p class="conteudo-paracomer-escrito-subitulo">A cozinha da família Rossi apresenta receitas clássicas italianas<br> executadas com exelentes ingredientes.</p>
@@ -77,13 +78,14 @@
             </div>
 
             <div class="conteudo-paracomer-botoes">
-                <button class="conteudo-paracomer-botao">MENU A LA CARTE</button>
+                <button class="conteudo-paracomer-botao" href="Cardapio.html">MENU A LA CARTE</button>
                 <button class="conteudo-paracomer-botao">PEÇA PELO IFOOD</button>
             </div>
+
         </section>
 
 
-        <section class="conteudo-parabeber">
+        <section id="Para beber" class="conteudo-parabeber">
             <div class="conteudo-parabeber-escrito">
                 <h1 class="conteudo-parabeber-escrito-titulo">Para beber</h1>
                 <p class="conteudo-parabeber-escrito-subtitulo">Drinks autorais são destaques da nossa cantina,<br> assim como a carta de vinhos com mais de 30 rótulos.</p>
@@ -102,6 +104,7 @@
                 <img class="conteudo-parabeber-imagem2" src="Elementos/Foto 7 (Para beber).png" alt="Foto 7 para beber">
                 <img class="conteudo-parabeber-imagem2" src="Elementos/Foto 8 (Para beber).png" alt="Foto 8 para beber">
             </div>
+            
 
             <div class="conteudo-parabeber-botao">
                 <button class="conteudo-parabeber-botao1">CARTA DE BAR</button>
@@ -109,24 +112,27 @@
         </section>
 
         
-        <section class="conteudo-reserva">           
+        <section id="Reservas" class="conteudo-reserva">           
             <div class="conteudo-reserrva-escrito">
                 <h1 class="conteudo-reserva-escrito-titulo">Faça sua reserva abaixo:</h1>
             </div>
 
             <section class="conteudo-reserva-imputs-texto">
-                <div class="conteudo-reserva-botoesdeselecao">
+                <div class="conteudo-reserva-botoesdeselecao">  
                     <div class="conteudo-reserva-botaodeselecao-1">
+                        <i class="fa-solid fa-calendar" style="font-size:40px;"></i>
                         <p class="conteudo-reserva-botoesdeselecao-titulo">Dia de reserva:</p>
                         <p><input class="input" type="text"></p>
                     </div>
 
                     <div class="conteudo-reserva-botaodeselecao-2">
+                        <i class="fa-solid fa-user" style="font-size:40px;"></i>
                         <p class="conteudo-reserva-botoesdeselecao-titulo">Pessoas:</p>
                         <p><input class="input" type="text"></p>
                     </div>
 
                     <div class="conteudo-reserva-botaodeselecao-3">
+                        <i class="fa-solid fa-clock" style="font-size:40px;"></i>
                         <p class="conteudo-reserva-botoesdeselecao-titulo">Horário:</p>
                         <p><input class="input" type="text"></p>
                     </div>
@@ -139,7 +145,6 @@
                 </div>
             </section>
         </section>
-
 
         <section class="conteudo-mapa">
             <div class="conteudo-mapa-imagem">
