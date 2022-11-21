@@ -11,6 +11,11 @@ body{
     font-size: 100%;
 }
 
+
+html {
+    scroll-behavior: smooth;
+  }
+  
 .cabecalho{
     display: flex;
     flex-direction: row;
@@ -71,6 +76,11 @@ body{
     padding-right: 75px;
 }
 
+#A-cantina{
+    margin-top: -1000px;
+}
+
+
 .conteudo-acantina-escrito{
     display: flex;
     flex-direction: column;
@@ -96,7 +106,7 @@ body{
     font-family: 'libre Baskerville' , serif;
     color: #ffffff;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 28px;
 }
 
 .conteudo-imagensdivisão{
@@ -117,6 +127,11 @@ body{
     padding-bottom: 65px;
     padding-left: 85px;
     padding-right: 85px;
+}
+
+#Para-comer{
+    margin-top: -150px;
+    margin-bottom: 150px;
 }
 
 .conteudo-paracomer-escrito{
@@ -187,6 +202,11 @@ body{
     padding-bottom: 65px;
     padding-left: 85px;
     padding-right: 85px;
+}
+
+#Para-beber{
+    margin-top: -150px;
+    margin-bottom: 150px;
 }
 
 .conteudo-parabeber-escrito{
@@ -261,6 +281,11 @@ body{
     padding-right: 85px;
 }
 
+#Reservas{
+    margin-top: -150px;
+    margin-bottom: 150px;
+}
+
 .conteudo-reserva-escrito-titulo{
     font-family: 'Libre Baskerville', serif;
     color: #ffffff;
@@ -287,53 +312,40 @@ body{
     font-family: 'Libre Baskerville', serif;
     color: #000000;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 32px;
 }
 
 .conteudo-reserva-botaodeselecao-1{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 24px;
     background-color: #ffffff;
     border-radius: 30px;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .conteudo-reserva-botaodeselecao-2{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 24px;
     background-color: #ffffff;
     border-radius: 30px;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .conteudo-reserva-botaodeselecao-3{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 24px;
     background-color: #ffffff;
     border-radius: 30px;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.input{
-    background-color: #bebebe;
-    border: none;
-    padding: 1px;
-    width: 100px;
 }
 
 .conteudo-reserva-informaçoes{
@@ -344,7 +356,7 @@ body{
     font-family: 'Libre Baskerville', serif;
     color: #ffffff;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .conteudo-mapa{
