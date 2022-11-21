@@ -9,18 +9,18 @@
     <script src="https://kit.fontawesome.com/c405984d70.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
+    
     <header class="cabecalho">
         
         <nav class="cabecalho-menu">
-            <a class="cabecalho-menu-item" href="#A cantina">A cantina</a>
-            <a class="cabecalho-menu-item" href="#Para comer">Para comer</a>
+            <a class="cabecalho-menu-item" href="#A-cantina">A cantina</a>
+            <a class="cabecalho-menu-item" href="#Para-comer">Para comer</a>
         
 
             <img class="cabecalho-imagem" src="Elementos/logo Branca.png" alt="Logo Família rossi">
 
         
-            <a class="cabecalho-menu-item" href="#Para beber">Para beber</a>
+            <a class="cabecalho-menu-item" href="#Para-beber">Para beber</a>
             <a class="cabecalho-menu-item" href="#Reservas">Reservas</a>
         </nav>
 
@@ -32,7 +32,10 @@
             <img clas="primeira-imagem1" src="Elementos/Primeira imagem.png" altt="Primeira foto">
         </section>
         
-        <section id="A cantina" class="conteudo-acantina">
+        
+
+        <section class="conteudo-acantina">
+            <span id="A-cantina"></span>
             <div class="conteudo-acantina-escrito">
                 <h1 class="conteudo-acantina-escrito-titulo">A cantina</h1>
 
@@ -57,9 +60,11 @@
         </section>
 
 
-        <section id="Para comer" class="conteudo-paracomer">
+        <section class="conteudo-paracomer">
+            <span id="Para-comer"></span>
+            
             <div class="conteudo-paracomer-escrito">
-                <h1 class="conteudo-paracomer-escrito-titulo">Para comer</h1>
+                <h1  class="conteudo-paracomer-escrito-titulo">Para comer</h1>
                 <p class="conteudo-paracomer-escrito-subitulo">A cozinha da família Rossi apresenta receitas clássicas italianas<br> executadas com exelentes ingredientes.</p>
             </div>
 
@@ -78,14 +83,19 @@
             </div>
 
             <div class="conteudo-paracomer-botoes">
-                <button class="conteudo-paracomer-botao" href="Cardapio.html">MENU A LA CARTE</button>
-                <button class="conteudo-paracomer-botao">PEÇA PELO IFOOD</button>
+
+                <a class="conteudo-paracomer-botao" href="Cardapio.html" target="_blank"> MENU A LA CARTE</a>
+                <a class="conteudo-paracomer-botao">PEÇA PELO IFOOD</a>
+
             </div>
+
 
         </section>
 
 
-        <section id="Para beber" class="conteudo-parabeber">
+        <section class="conteudo-parabeber">
+            <span id="Para-beber"></span>
+
             <div class="conteudo-parabeber-escrito">
                 <h1 class="conteudo-parabeber-escrito-titulo">Para beber</h1>
                 <p class="conteudo-parabeber-escrito-subtitulo">Drinks autorais são destaques da nossa cantina,<br> assim como a carta de vinhos com mais de 30 rótulos.</p>
@@ -107,12 +117,16 @@
             
 
             <div class="conteudo-parabeber-botao">
-                <button class="conteudo-parabeber-botao1">CARTA DE BAR</button>
+                
+                <a class="conteudo-parabeber-botao1" href="Carta de bar.html" target="_blank">CARTA DE BAR</a>
+
             </div>
         </section>
 
         
-        <section id="Reservas" class="conteudo-reserva">           
+        <section class="conteudo-reserva">
+            <span id="Reservas"></span>
+           
             <div class="conteudo-reserrva-escrito">
                 <h1 class="conteudo-reserva-escrito-titulo">Faça sua reserva abaixo:</h1>
             </div>
@@ -122,19 +136,40 @@
                     <div class="conteudo-reserva-botaodeselecao-1">
                         <i class="fa-solid fa-calendar" style="font-size:40px;"></i>
                         <p class="conteudo-reserva-botoesdeselecao-titulo">Dia de reserva:</p>
-                        <p><input class="input" type="text"></p>
+                        <p><input type="date" id="start" name="trip-start"
+                            min="2022-11-11" max="2022-12-31"></p>
                     </div>
 
                     <div class="conteudo-reserva-botaodeselecao-2">
                         <i class="fa-solid fa-user" style="font-size:40px;"></i>
-                        <p class="conteudo-reserva-botoesdeselecao-titulo">Pessoas:</p>
-                        <p><input class="input" type="text"></p>
+                        <label for="pessoas" class="conteudo-reserva-botoesdeselecao-titulo">Pessoas:</label>
+                        <select id="pessoas">
+                            <option value="0"></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                          </select>
                     </div>
 
                     <div class="conteudo-reserva-botaodeselecao-3">
                         <i class="fa-solid fa-clock" style="font-size:40px;"></i>
-                        <p class="conteudo-reserva-botoesdeselecao-titulo">Horário:</p>
-                        <p><input class="input" type="text"></p>
+                        <label for="horario" class="conteudo-reserva-botoesdeselecao-titulo">horário:</label>
+                        <select id="horario">
+                            <option value="0"></option>
+                            <option value="1">12:00</option>
+                            <option value="2">14:00</option>
+                            <option value="3">16:00</option>
+                            <option value="4">18:00</option>
+                            <option value="5">19:00</option>
+                            <option value="6">20:00</option>
+                            <option value="7">21:00</option>
+                            <option value="8">22:00</option>
+                          </select>
                     </div>
                 </div>
             
