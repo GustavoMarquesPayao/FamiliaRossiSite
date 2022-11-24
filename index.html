@@ -6,6 +6,7 @@
     <meta name="description" content="Venha visitar a nossa cantina Família rossi, um ambiente perfeito para vir com a família. Esperamos você">
     <title>Família Rossi</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Elementos/icon aba.png">
     <script src="https://kit.fontawesome.com/c405984d70.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -28,14 +29,18 @@
 
 
     <main class="conteudo">
+
+
         <section class="primeira-imagem">
-            <img clas="primeira-imagem1" src="Elementos/Primeira imagem.png" altt="Primeira foto">
+            <img clas="primeira-imagem1" src="Elementos/Primeira imagem.png" width=100% alt="Primeira foto">
         </section>
         
         
 
         <section class="conteudo-acantina">
+
             <span id="A-cantina"></span>
+
             <div class="conteudo-acantina-escrito">
                 <h1 class="conteudo-acantina-escrito-titulo">A cantina</h1>
 
@@ -48,19 +53,25 @@
                     
                     <p class="conteudo-acantina-escrito-subtitulo">Venha nos visitar e saborear um pedacinho da italia na nossa queriada cidade de são caetano, será um prazer receber você!</p>
                 </div>
+
             </div>
+
             <img class="conteudo-acantina-imagem" src="Elementos/Foto 1 (A cantina).png" alt="Foto 1">
             <img class="conteudo-acantina-imagem" src="Elementos/Foto 2 (A cantina).png" alt="Foto2">
+
         </section>
 
 
         <section class="conteudo-imagensdivisão">
-            <img class="conteudo-imagensdivisão-imagem" src="Elementos/Foto Divisão 1.png" alt="Foto divisão 1">
-            <img class="conteudo-imagensdivisão-imagem" src="Elementos/Foto divisão 2.png" alt="Foo divisão 2">
+
+            <img class="conteudo-imagensdivisão-imagem" src="Elementos/Foto Divisão 1.png" width=100% alt="Foto divisão 1">
+            <img class="conteudo-imagensdivisão-imagem" src="Elementos/Foto divisão 2.png" width=100% alt="Foo divisão 2">
+
         </section>
 
 
         <section class="conteudo-paracomer">
+
             <span id="Para-comer"></span>
             
             <div class="conteudo-paracomer-escrito">
@@ -89,11 +100,11 @@
 
             </div>
 
-
         </section>
 
 
         <section class="conteudo-parabeber">
+
             <span id="Para-beber"></span>
 
             <div class="conteudo-parabeber-escrito">
@@ -115,16 +126,15 @@
                 <img class="conteudo-parabeber-imagem2" src="Elementos/Foto 8 (Para beber).png" alt="Foto 8 para beber">
             </div>
             
-
             <div class="conteudo-parabeber-botao">
-                
                 <a class="conteudo-parabeber-botao1" href="Carta de bar.html" target="_blank">CARTA DE BAR</a>
-
             </div>
+
         </section>
 
         
         <section class="conteudo-reserva">
+
             <span id="Reservas"></span>
            
             <div class="conteudo-reserrva-escrito">
@@ -132,12 +142,29 @@
             </div>
 
             <section class="conteudo-reserva-imputs-texto">
+
                 <div class="conteudo-reserva-botoesdeselecao">  
                     <div class="conteudo-reserva-botaodeselecao-1">
                         <i class="fa-solid fa-calendar" style="font-size:40px;"></i>
                         <p class="conteudo-reserva-botoesdeselecao-titulo">Dia de reserva:</p>
                         <p><input type="date" id="start" name="trip-start"
                             min="2022-11-11" max="2022-12-31"></p>
+                    </div>
+
+                    <div class="conteudo-reserva-botaodeselecao-3">
+                        <i class="fa-solid fa-clock" style="font-size:40px;"></i>
+                        <label for="horario" class="conteudo-reserva-botoesdeselecao-titulo">horário:</label>
+                        <select id="horario">
+                            <option value="0"></option>
+                            <option value="1">12:00</option>
+                            <option value="2">14:00</option>
+                            <option value="3">16:00</option>
+                            <option value="4">18:00</option>
+                            <option value="5">19:00</option>
+                            <option value="6">20:00</option>
+                            <option value="7">21:00</option>
+                            <option value="8">22:00</option>
+                          </select>
                     </div>
 
                     <div class="conteudo-reserva-botaodeselecao-2">
@@ -156,20 +183,10 @@
                           </select>
                     </div>
 
-                    <div class="conteudo-reserva-botaodeselecao-3">
-                        <i class="fa-solid fa-clock" style="font-size:40px;"></i>
-                        <label for="horario" class="conteudo-reserva-botoesdeselecao-titulo">horário:</label>
-                        <select id="horario">
-                            <option value="0"></option>
-                            <option value="1">12:00</option>
-                            <option value="2">14:00</option>
-                            <option value="3">16:00</option>
-                            <option value="4">18:00</option>
-                            <option value="5">19:00</option>
-                            <option value="6">20:00</option>
-                            <option value="7">21:00</option>
-                            <option value="8">22:00</option>
-                          </select>
+                    <div>
+
+                        <a class="conteudo-reserva-botaofinalizar"> Finalizar reserva</a>
+                        
                     </div>
                 </div>
             
@@ -178,12 +195,14 @@
                     <p class="conteudo-reserva-paragrafo">• Não é possível escolher a mesa no momento<br> da reserva. Você será acomodado<br> de acordo com a disponibilidade no momento da sua<br> chegada.</p>
                     <p class="conteudo-reserva-paragrafo">• Tolerância para atrasos: 10 minutos.</p>
                 </div>
+
             </section>
         </section>
 
         <section class="conteudo-mapa">
+
             <div class="conteudo-mapa-imagem">
-                <img class="conteudo-mapa-imagem1" src="Elementos/Mapsicle Map.png" alt="Mapa">
+                <iframe class="conteudo-mapa-imagem1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9482.327512679294!2d-46.57644941626121!3d-23.606591004649513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5cf4f341524f%3A0x9253570b50de7798!2sCantina%20Italiana%20Famiglia%20Rossi!5e0!3m2!1spt-BR!2sbr!4v1669031094023!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div class="conteudo-mapa-endereço">
@@ -197,6 +216,7 @@
                 <p class="conteudo-mapa-horario-texto2">Segunda a Sexta: 12h às 0h</p>
                 <p class="conteudo-mapa-horario-texto3">Sábado e Domingo: 10h às 0h</p>
             </div>
+
         </section>
     </main>
 
