@@ -305,7 +305,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    gap: 50px;
+    gap: 40px;
 }
 
 .conteudo-reserva-botoesdeselecao-titulo{
@@ -321,7 +321,7 @@ html {
     align-items: center;
     justify-content: space-around;
     gap: 30px;
-    padding: 24px;
+    padding: 18px;
     background-color: #ffffff;
     border-radius: 30px;
 }
@@ -332,7 +332,7 @@ html {
     align-items: center;
     justify-content: space-around;
     gap: 30px;
-    padding: 24px;
+    padding: 18px;
     background-color: #ffffff;
     border-radius: 30px;
 }
@@ -343,9 +343,22 @@ html {
     align-items: center;
     justify-content: space-around;
     gap: 30px;
-    padding: 24px;
+    padding: 18px;
     background-color: #ffffff;
     border-radius: 30px;
+}
+
+.conteudo-reserva-botaofinalizar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #000000;
+    background-color: #BB7A32;
+    border-radius: 30px;
+    padding: 18px;
 }
 
 .conteudo-reserva-informaçoes{
@@ -363,10 +376,16 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #ffffff;
+    background-image: url("Elementos/pasta-icon 7 (2).png") ;
+    background-size: 15%;
     gap: 60px;
     padding-top: 125px;
     padding-bottom: 125px;
+}
+
+.conteudo-mapa-imagem{
+    border: solid 8px;
+    border-color: #000000;
 }
 
 .conteudo-mapa-endereço{
@@ -434,4 +453,396 @@ html {
 
 .rodape-imagem{
     height: 75px;
+}
+
+@media screen and (max-width: 1300px) {
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(0, 0, 0);
+        padding: 22px;
+    }
+    
+    .cabecalho-imagem{
+        height: 75px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .cabecalho-menu{
+        display: flex;
+        align-items: center;
+    }
+    
+    .cabecalho-menu-item{
+        display: none;
+    }
+
+    .conteudo-acantina{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #662012;
+        gap: 30px;
+        padding-top: 65px;
+        padding-bottom: 65px;
+        padding-left: 85px;
+        padding-right: 85px;
+    }
+
+    #A-cantina{
+        display: none;
+    }
+    
+    .conteudo-acantina-escrito{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 52px;
+    }
+    
+    .conteudo-acantina-escrito-titulo{
+        font-family: 'libre Baskerville' , serif;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 64px;
+    }
+    
+    .conteudo-acantina-escrito-texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .conteudo-acantina-escrito-subtitulo{
+        font-family: 'libre Baskerville' , serif;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 28px;
+    }
+
+    .conteudo-imagensdivisão{
+        display: none;
+    }
+
+    .conteudo-paracomer{
+        display:flex;
+        flex-direction:column;
+        align-items:center ;
+        background-color: #F4F4F4;
+        padding-top: 65px;
+        padding-bottom: 65px;
+        padding-left: 85px;
+        padding-right: 85px;
+    }
+    
+    
+    
+    .conteudo-paracomer-escrito{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .conteudo-paracomer-escrito-titulo{
+        font-family: 'Libre Baskerville', serif;
+        color: #000000;
+        font-weight: 400;
+        font-size: 64px;
+    }
+    
+    .conteudo-paracomer-escrito-subitulo{
+        font-family: 'Libre Baskerville', serif;
+        color: #000000;
+        font-weight: 400;
+        font-size: 32px;
+        padding-bottom: 55px;
+        text-align: center;
+    }
+    
+    .conteudo-paracomer-imagens1{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        gap: 40px;
+    }
+    
+    .conteudo-paracomer-imagens2{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding-top: 40px;
+        gap: 40px;
+    }
+    
+    .conteudo-paracomer-botoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 55px;
+        gap: 40px;
+    }
+    
+    .conteudo-paracomer-botao{
+        font-family: 'Libre Baskerville', serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: #000000;
+        background-color: #BB7A32;
+        border: none;
+        padding-left: 28px;
+        padding-right: 28px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+
+    .conteudo-parabeber{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #0F320F;
+        padding-top: 65px;
+        padding-bottom: 65px;
+        padding-left: 85px;
+        padding-right: 85px;
+    }
+    
+    #Para-beber{
+        margin-top: -150px;
+        margin-bottom: 150px;
+    }
+    
+    .conteudo-parabeber-escrito{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .conteudo-parabeber-escrito-titulo{
+        font-family: 'Libre Baskerville', serif;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 64px;
+    }
+    
+    .conteudo-parabeber-escrito-subtitulo{
+        font-family: 'Libre Baskerville', serif;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 32px;
+        padding-bottom: 55px;
+        text-align: center;
+    }
+    
+    .conteudo-parabeber-imagens1{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        gap: 40px;
+    }
+    
+    .conteudo-parabeber-imagens2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding-top: 40px;
+    }
+    
+    .conteudo-parabeber-botao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 55px;
+        gap: 40px;
+    }
+    
+    .conteudo-parabeber-botao1{
+        font-family: 'Libre Baskerville', serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: #000000;
+        background-color: #BB7A32;
+        border: none;
+        padding-left: 28px;
+        padding-right: 28px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    
+    .conteudo-reserva{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #662012;
+        padding-top: 100px;
+        padding-bottom: 150px;
+        padding-left: 85px;
+        padding-right: 85px;
+    }
+    
+    #Reservas{
+        margin-top: -150px;
+        margin-bottom: 150px;
+    }
+    
+    .conteudo-reserva-escrito-titulo{
+        font-family: 'Libre Baskerville', serif;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 64px;
+        padding-bottom: 100px;
+    }
+    
+    .conteudo-reserva-imputs-texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 180px;
+    }
+    
+    .conteudo-reserva-botoesdeselecao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .conteudo-reserva-botoesdeselecao-titulo{
+        font-family: 'Libre Baskerville', serif;
+        color: #000000;
+        font-weight: 400;
+        font-size: 32px;
+    }
+    
+    .conteudo-reserva-botaodeselecao-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 30px;
+        padding: 18px;
+        background-color: #ffffff;
+        border-radius: 30px;
+    }
+    
+    .conteudo-reserva-botaodeselecao-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 30px;
+        padding: 18px;
+        background-color: #ffffff;
+        border-radius: 30px;
+    }
+    
+    .conteudo-reserva-botaodeselecao-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 30px;
+        padding: 18px;
+        background-color: #ffffff;
+        border-radius: 30px;
+    }
+    
+    .conteudo-reserva-botaofinalizar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Libre Baskerville', serif;
+        font-size: 28px;
+        font-weight: 600;
+        color: #000000;
+        background-color: #BB7A32;
+        border-radius: 30px;
+        padding: 18px;
+    }
+    
+    .conteudo-reserva-informaçoes{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        gap: 50px;
+        font-family: 'Libre Baskerville', serif;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 30px;
+    }
+
+    .conteudo-mapa{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url("Elementos/pasta-icon 7 (1).png") ;
+        background-size: 8%;
+        gap: 60px;
+        padding-top: 125px;
+        padding-bottom: 125px;
+    }
+    
+    .conteudo-mapa-imagem{
+        display: none;
+    }
+    
+    .conteudo-mapa-endereço{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .conteudo-mapa-endereço-texto1{
+        font-family: 'Libre Baskerville', serif;
+        color: #000000;
+        font-weight: 400;
+        font-size: 36px;
+    }
+    
+    .conteudo-mapa-endereço-texto2{
+        font-family: 'Libre Baskerville', serif;
+        color: #000000;
+        font-weight: 400;
+        font-size: 26px;
+    }
+    
+    .conteudo-mapa-endereço-texto3{
+        font-family: 'Libre Baskerville', serif;
+        color: #000000;
+        font-weight: 400;
+        font-size: 26px;
+    }
+    
+    .counteudo-mapa-horario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .conteudo-mapa-horario-texto1{
+        font-family: 'Libre Baskerville', serif;
+        color: #000000;
+        font-weight: 400;
+        font-size: 36px;
+    }
+    
+    .conteudo-mapa-horario-texto2{
+        font-family: 'Libre Baskerville', serif;
+        color: #000000;
+        font-weight: 400;
+        font-size: 26px;
+    }
+    
+    .conteudo-mapa-horario-texto3{
+        font-family: 'Libre Baskerville', serif;
+        color: #000000;
+        font-weight: 400;
+        font-size: 26px;
+    }
 }
