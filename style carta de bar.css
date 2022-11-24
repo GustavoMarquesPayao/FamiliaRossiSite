@@ -11,6 +11,10 @@ body{
     font-size: 100%;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .cabecalho{
     display: flex;
     flex-direction: row;
@@ -46,6 +50,13 @@ body{
     margin-bottom: 0px;
     border-top: 0.1px solid #303030;
     border-bottom: 0.1-x solid #303030;
+    background-image: url("Elementos/pasta-icon 7 (1).png") ;
+    background-size: 8%;
+}
+
+#nao-alcolicos{
+    margin-top: -150px;
+    margin-bottom: 150px;
 }
 
 .conteudo-naoalcolicos{
@@ -176,4 +187,28 @@ body{
     color: #000000;
     font-weight: 600;
     font-size: 64px;
+}
+
+@media screen and (max-width: 1200px){
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        gap: 30px;
+        padding: 22px;
+        background-color: rgb(0, 0, 0);
+        position: sticky;
+        top: 0;
+    }
+    
+    .cabecalho-imagem{
+        height: 75px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .cabecalho-menu{
+        display: none;
+    }
 }
